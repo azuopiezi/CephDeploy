@@ -6,3 +6,31 @@
     "changed": false, 
     "ping": "pong"
 }
+2020-09-25 11:48:08,709 p=15164 u=root |  ceph02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2020-09-25 11:48:08,717 p=15164 u=root |  ceph01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2020-09-25 11:48:08,815 p=15164 u=root |  ceph03 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2020-09-25 11:48:17,650 p=15225 u=root |  ceph03 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2020-09-25 11:48:17,651 p=15225 u=root |  ceph02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2020-09-25 11:48:17,653 p=15225 u=root |  ceph01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2020-09-25 11:48:26,186 p=15277 u=root |  ceph02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
