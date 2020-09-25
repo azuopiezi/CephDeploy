@@ -8,7 +8,7 @@ git commit -m "${CommitMessage}"
 user=azuopiezi
 password=sX209@^Yj
 expect << EOF
-spawn git push
+spawn git push -f https://github.com/azuopiezi/CephDeploy.git master
 #expect "Username for 'https://github.com':"
 expect "Username*"
 send "${user}\r"
