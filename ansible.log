@@ -1,0 +1,8 @@
+2020-09-25 11:09:12,882 p=12782 u=root |  node1 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2020-09-25 11:09:12,898 p=12782 u=root |  node2 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}

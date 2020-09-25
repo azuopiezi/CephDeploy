@@ -1,0 +1,21 @@
+---
+all:
+  hosts:
+    node1:
+      ansible_connection: ssh
+      ansible_host: 10.100.201.161
+      ansible_ssh_pass: Huayun@123
+      ansible_ssh_user: root
+      http_port: 81
+
+    node2:
+      ansible_connection: ssh
+      ansible_host: 10.100.201.162
+      ansible_ssh_pass: Huayun@123
+      ansible_ssh_user: root
+      http_port: 82
+  children:
+    nodes:
+      hosts:
+        node1:
+        node2:
