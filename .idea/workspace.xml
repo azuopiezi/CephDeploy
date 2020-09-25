@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="manually hosts">
-      <change afterPath="$PROJECT_DIR$/function/templates/test.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/BaseConfig.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/SetChrony.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/SetHostnameAndHosts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="manually Chrony" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600999580527</updated>
       <workItem from="1600999581914" duration="750000" />
-      <workItem from="1601000333802" duration="7614000" />
+      <workItem from="1601000333802" duration="8131000" />
     </task>
     <task id="LOCAL-00001" summary="README.md">
       <created>1601000112119</created>
@@ -84,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601005106655</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="manually Chrony">
+      <created>1601015856982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601015856982</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,21 +107,22 @@
     <MESSAGE value="README.md" />
     <MESSAGE value="manually Install" />
     <MESSAGE value="manually hosts" />
-    <option name="LAST_COMMIT_MESSAGE" value="manually hosts" />
+    <MESSAGE value="manually Chrony" />
+    <option name="LAST_COMMIT_MESSAGE" value="manually Chrony" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="269" key="FileChooserDialogImpl" timestamp="1601000330276">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="269" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601000330276" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601005177595">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601015926405">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601005177595" />
-    <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601014098871">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601015926405" />
+    <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601016292948">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="661" y="326" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601014098871" />
+    <state x="661" y="326" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601016292948" />
     <state x="742" y="427" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600999694840">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
