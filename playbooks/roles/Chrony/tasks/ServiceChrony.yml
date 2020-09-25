@@ -1,0 +1,16 @@
+---
+# tasks file for roles/chronyd
+- name: Start chrony service
+  service: name=chronyd state=started enabled=yes
+  retries: 3
+  delay: 5
+  tags:
+    - Start
+    - StartService
+    - StartChrony
+- name: Stop chrony service
+  service: name=chronyd state=stopped
+  tags:
+    - Stop
+    - StopService
+    - StopChrony

@@ -1,0 +1,11 @@
+server 0.centos.pool.ntp.org iburst
+server 1.centos.pool.ntp.org iburst
+server 2.centos.pool.ntp.org iburst
+server 3.centos.pool.ntp.org iburst
+driftfile /var/lib/chrony/drift
+makestep 1.0 3
+rtcsync
+allow 127.0.0.1/16
+logdir /var/log/chrony
+local stratum 10
+

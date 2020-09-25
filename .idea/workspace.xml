@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="manually hosts">
+      <change afterPath="$PROJECT_DIR$/function/templates/test.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/BaseConfig.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/SetChrony.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/SetHostnameAndHosts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/main.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hz2Q8OU2yNsLZTpqbG7JuTfVA8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\BaseEnvConfig\tasks" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="" />
+      <created>1600999580527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600999580527</updated>
+      <workItem from="1600999581914" duration="750000" />
+      <workItem from="1601000333802" duration="7614000" />
+    </task>
+    <task id="LOCAL-00001" summary="README.md">
+      <created>1601000112119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601000112119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="manually Install">
+      <created>1601000184427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601000184427</updated>
+    </task>
+    <task id="LOCAL-00003" summary="manually Install">
+      <created>1601003222834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601003222834</updated>
+    </task>
+    <task id="LOCAL-00004" summary="manually hosts">
+      <created>1601005106655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601005106655</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="README.md" />
+    <MESSAGE value="manually Install" />
+    <MESSAGE value="manually hosts" />
+    <option name="LAST_COMMIT_MESSAGE" value="manually hosts" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="269" key="FileChooserDialogImpl" timestamp="1601000330276">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="269" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601000330276" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601005177595">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601005177595" />
+    <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601014098871">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="661" y="326" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601014098871" />
+    <state x="742" y="427" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600999694840">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="742" y="427" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600999694840" />
+  </component>
+</project>

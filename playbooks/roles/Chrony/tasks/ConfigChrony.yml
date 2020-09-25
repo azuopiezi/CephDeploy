@@ -1,0 +1,40 @@
+---
+- name: remove server from chrony.conf
+  lineinfile:
+    dest: /etc/chrony.conf
+    regexp: '^server .* iburst'
+    state: absent
+
+- name: set chrony server in chrony.conf
+  lineinfile:
+    dest: /etc/chrony.conf
+    regexp: '^server .* iburst'
+    line: 'server {{ chrony_server_ip }} iburst'
+
+- name: set allow in chrony.conf
+  lineinfile:
+    dest: /etc/chrony.conf
+    regexp: '^allow'
+    line: 'allow {{ ansible_ens192.ipv4.network }}/{{ 24 }}'
+  notify: restart chrony service
+
+- name: check timezone
+  shell: timedatectl  |grep "Time zone" |awk '{print $3}'
+  register: timezone_result
+
+- debug:
+    msg: "{{ timezone_result }}"
+
+
+- name: wait for chronyd status is ok
+  shell: chronyc sources |grep "\*" |wc -l
+  register: chronyc_sources_result
+  until: chronyc_sources_result.stdout == '1'
+  retries: 10
+  delay: 5
+
+- name: sync hwclock
+  shell: hwclock -w
+  ignore_errors: yes
+
+
