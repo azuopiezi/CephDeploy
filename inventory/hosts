@@ -1,21 +1,43 @@
 ---
 all:
   hosts:
-    node1:
+    ceph01:
       ansible_connection: ssh
       ansible_host: 10.100.201.161
       ansible_ssh_pass: Huayun@123
       ansible_ssh_user: root
-      http_port: 81
+      ansible_ceph_stor: 119.119.119.161
 
-    node2:
+    ceph02:
       ansible_connection: ssh
       ansible_host: 10.100.201.162
       ansible_ssh_pass: Huayun@123
       ansible_ssh_user: root
-      http_port: 82
+      ansible_ceph_stor: 119.119.119.162
+    ceph03:
+      ansible_connection: ssh
+      ansible_host: 10.100.201.163
+      ansible_ssh_pass: Huayun@123
+      ansible_ssh_user: root
+      ansible_ceph_stor: 119.119.119.163
+
   children:
-    nodes:
+    ADMIN:
       hosts:
-        node1:
-        node2:
+        ceph01:
+    MON:
+      hosts:
+        ceph01:
+        ceph02:
+        ceph03:
+    OSD:
+      hosts:
+        ceph01:
+        ceph02:
+        ceph03:
+    RGW:
+      hosts:
+        ceph02
+    MDS:
+      hosts:
+        ceph03
