@@ -1,12 +1,10 @@
 ---
 - hosts: all
 
-
-  tasks:
-    roles:
-      - BaseEnvConfig
-      - SetYum
-      - SetSshNoPasswd
-      - Chrony
-      - BaseRpmInstall
-      - UpdateSystem
+  roles:
+    - BaseEnvConfig
+    - SetYum
+    - SetSshNoPasswd
+    - Chrony
+    - BaseRpmInstall
+    - UpdateSystem

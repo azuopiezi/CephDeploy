@@ -11,6 +11,7 @@
 - name: Stop chrony service
   service: name=chronyd state=stopped
   tags:
+    - never
     - Stop
     - StopService
     - StopChrony

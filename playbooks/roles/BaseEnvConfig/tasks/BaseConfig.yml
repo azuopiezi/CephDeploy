@@ -8,9 +8,11 @@
     msg: "Print the timezone is {{ timezone_result.stdout }}"
   ignore_errors: yes
 
+
 - name: change timezone for "Asia/Shanghai"
   shell: timedatectl set-timezone Asia/Shanghai
   when: timezone_result.stdout != "Asia/Shanghai"
+
 
 - name: stop networkmager
   service: name=NetworkManager state=stopped enabled=no
@@ -18,6 +20,7 @@
 - name: Check if firewalld is installed
   stat: path=/usr/lib/systemd/system/firewalld.service
   register: fw_file
+
 
 - name: change sshd
   shell: sed -i -e 's/.*UseDNS.*/UseDNS no/g' -e 's/.*GSSAPIAuthentication.*/GSSAPIAuthentication no/g' /etc/ssh/sshd_config
