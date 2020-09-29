@@ -1,0 +1,69 @@
+---
+#去读id_rsa.pub的内容作为authorized_key
+- name: config ssh certification
+  authorized_key:
+    user: root
+    key:  "{{ lookup('file', '/root/.ssh/id_rsa.pub') }}"
+  run_once: yes
+#删除tmp的文件
+- name: remove last temp key
+  local_action: file path=/tmp/ceph_key_id_rsa state=absent
+  run_once: yes
+#生成新的秘钥文件
+- name: generate a pair of ssh key
+  local_action: script files/shell/create_ssh_key.sh
+  run_once: yes
+#私钥上传
+- name: upload the generated private key to nodes
+  copy:
+    backup: yes
+    src: /tmp/ceph_key_id_rsa
+    dest: /root/.ssh/
+    mode: 0600
+    force: yes
+#公钥上传
+- name: upload the generated public key to nodes
+  copy:
+    src: /tmp/ceph_key_id_rsa.pub
+    dest: /root/.ssh/
+    mode: 0644
+    force: yes
+#把所有节点的授权文件为pub的内容
+- name: inject ssh keys to nodes
+  authorized_key: user=root key={{ lookup('file', '/tmp/ceph_key_id_rsa.pub') }}
+  run_once: yes
+
+- name: make ssh configurations
+  blockinfile:
+    create: yes
+    mode: 0644
+    dest: /root/.ssh/config
+    marker: "# {mark} ANSIBLE INJECTED CEPH NODE SSH CONFIG FOR {{ item }}"
+    block: |
+      Host {{ item }}
+        User root
+        Port {{ hostvars[item].ansible_port | default(22) }}
+        IdentityFile /root/.ssh/ceph_key_id_rsa
+        StrictHostKeyChecking no
+        UserKnownHostsFile=/dev/null
+        PasswordAuthentication=no
+  with_items: "{{ groups.all }}"
+  when: "item != 'localhost'"
+
+
+- name: make ssh configurations
+  blockinfile:
+    create: yes
+    mode: 0644
+    dest: /root/.ssh/config
+    marker: "# {mark} ANSIBLE INJECTED CEPH NODE SSH CONFIG FOR {{ hostvars[item].ansible_host }}"
+    block: |
+      Host {{ hostvars[item].ansible_host }}
+        User root
+        Port {{ hostvars[item].ansible_port | default(22) }}
+        IdentityFile /root/.ssh/ceph_key_id_rsa
+        StrictHostKeyChecking no
+        UserKnownHostsFile=/dev/null
+        PasswordAuthentication=no
+  with_items: "{{ groups.all }}"
+  when: "item != 'localhost'"

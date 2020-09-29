@@ -1,2 +1,3 @@
 ---
 # tasks file for SetSshNoPasswd
+- include: ConfigSshd.yml
