@@ -11,7 +11,7 @@
   run_once: yes
 #生成新的秘钥文件
 - name: generate a pair of ssh key
-  local_action: script function/files/shell/CreateSshKey.sh
+  local_action: script files/shell/CreateSshKey.sh
   run_once: yes
 #私钥上传
 - name: upload the generated private key to nodes
