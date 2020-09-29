@@ -8,10 +8,10 @@
     - Start
     - StartService
     - StartChrony
-- name: Stop chrony service
-  service: name=chronyd state=stopped
-  tags:
-    - never
-    - Stop
-    - StopService
-    - StopChrony
+#- name: Stop chrony service
+#  service: name=chronyd state=stopped
+#  tags:
+#    - never
+#    - Stop
+#    - StopService
+#    - StopChrony
