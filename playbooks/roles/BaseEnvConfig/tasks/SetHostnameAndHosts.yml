@@ -5,6 +5,7 @@
 
 - name: change name
   shell: hostnamectl set-hostname {{inventory_hostname}}
+  tags: always
 
 
 ##/etc/hosts 中添加组的的ip和主机名称对应表
@@ -18,5 +19,6 @@
 #可以这样写
 #        line: "{{ hostvars[item].ansible_host }} {{ item }}"
   with_items: "{{ hosts }}"
+  tags: always
 
 
