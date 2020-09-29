@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy nopasswd ssh" />
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy nopasswd ssh1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601371515856</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Ansible CephDeploy nopasswd ssh1">
+      <created>1601372009335</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601372009335</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ansible CephDeploy nopasswd ssh1">
+      <created>1601372079586</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601372079586</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +210,8 @@
     <MESSAGE value="Ansible CephDeploy-291111" />
     <MESSAGE value="Ansible CephDeploy-chronyd OK" />
     <MESSAGE value="Ansible CephDeploy nopasswd ssh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy nopasswd ssh" />
+    <MESSAGE value="Ansible CephDeploy nopasswd ssh1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy nopasswd ssh1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="269" key="FileChooserDialogImpl" timestamp="1601000330276">
@@ -211,10 +226,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601371539803">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601372085747">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601371539803" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601372085747" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601016292948">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
