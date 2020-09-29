@@ -1,0 +1,5 @@
+---
+# tasks file for SetYum
+- name: delete /etc/yum.repos.d/file
+  path: dest=/etc/yum.repos.d/ state=absent
+
