@@ -17,6 +17,7 @@
     regexp: '^allow'
     line: 'allow {{ ansible_ens192.ipv4.network }}/{{ 24 }}'
   notify: restart chrony service
+- meta: flush_handlers
 
 - name: check timezone
   shell: timedatectl  |grep "Time zone" |awk '{print $3}'

@@ -10,13 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy-29111">
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy-291111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/handlers/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/BaseConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/BaseConfig.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/SetHostnameAndHosts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/SetHostnameAndHosts.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playbooks/roles/Chrony/tasks/ConfigChrony.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/Chrony/tasks/ConfigChrony.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/Chrony/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/Chrony/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/Chrony/tasks/Temp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/Chrony/tasks/Temp.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601361784243</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ansible CephDeploy-291111">
+      <created>1601364304451</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601364304451</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ansible CephDeploy-291111">
+      <created>1601364512673</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601364512673</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +180,8 @@
     <MESSAGE value="Ansible CephDeploy-291" />
     <MESSAGE value="Ansible CephDeploy-2911" />
     <MESSAGE value="Ansible CephDeploy-29111" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy-29111" />
+    <MESSAGE value="Ansible CephDeploy-291111" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy-291111" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="269" key="FileChooserDialogImpl" timestamp="1601000330276">
@@ -184,10 +196,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601361791872">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601364615334">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601361791872" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601364615334" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601016292948">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
