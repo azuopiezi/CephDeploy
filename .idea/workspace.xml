@@ -10,12 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy-29">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/CephDeploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/function/CephDeploy.yml" afterDir="false" />
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy-2911">
       <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/BaseConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/BaseConfig.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/SetHostnameAndHosts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/SetHostnameAndHosts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/Chrony/tasks/ServiceChrony.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/Chrony/tasks/ServiceChrony.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601023891806</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ansible CephDeploy-291">
+      <created>1601361168664</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601361168664</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ansible CephDeploy-2911">
+      <created>1601361344609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601361344609</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,17 +153,27 @@
     <MESSAGE value="manually hosts" />
     <MESSAGE value="manually Chrony" />
     <MESSAGE value="Ansible CephDeploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy" />
+    <MESSAGE value="Ansible CephDeploy-291" />
+    <MESSAGE value="Ansible CephDeploy-2911" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy-2911" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="269" key="FileChooserDialogImpl" timestamp="1601000330276">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="269" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601000330276" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601024204143">
+    <state x="282" y="87" key="MergeDialog" timestamp="1601361225449">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601024204143" />
+    <state x="282" y="87" key="MergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361225449" />
+    <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog" timestamp="1601361231643">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601361350599">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601361350599" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601016292948">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

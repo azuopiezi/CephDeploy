@@ -1,0 +1,4 @@
+---
+# handlers file for BaseEnvConfig
+- name: restart sshd service
+  service: name=sshd state=restarted
