@@ -8,8 +8,8 @@
 - name: init cluster ceph new
   command: "{{ item }}"
   with_items:
-    - "ceph-deploy new {{ (groups.OSD + groups.MON | unique) | join(' ') }}"
-    - "ceph-deploy install {{ (groups.OSD + groups.MON | unique) | join(' ') }} --no-adjust-repos"
+    - "ceph-deploy new {{ ((groups.OSD + groups.MON) | unique) | join(' ') }}"
+    - "ceph-deploy install {{ ((groups.OSD + groups.MON) | unique) | join(' ') }} --no-adjust-repos"
     - "ceph-deploy mon create-initial"
   retries: 3
   delay: 5
