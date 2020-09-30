@@ -6,7 +6,7 @@
     mode: 0755
 
 - name: init cluster ceph new
-  command: "{{ item }}"
+  command: "/home/Cephx/myceph/{{ item }}"
   with_items:
     - "ceph-deploy new {{ ((groups.OSD + groups.MON) | unique) | join(' ') }}"
     - "ceph-deploy install {{ ((groups.OSD + groups.MON) | unique) | join(' ') }} --no-adjust-repos"
