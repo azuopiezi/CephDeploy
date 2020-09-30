@@ -10,13 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy deployadmin1111111">
-      <change afterPath="$PROJECT_DIR$/function/templates/CephStorIp.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/AddCephStorIP.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManuallyDeploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ManuallyDeploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseRpmInstall/tasks/Installbaserpm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseRpmInstall/tasks/Installbaserpm.yml" afterDir="false" />
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy deployadmin111111111">
+      <change beforePath="$PROJECT_DIR$/function/templates/CephStorIp.j2" beforeDir="false" afterPath="$PROJECT_DIR$/function/templates/CephStorIp.j2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +61,6 @@
       <workItem from="1600999581914" duration="750000" />
       <workItem from="1601000333802" duration="12534000" />
       <workItem from="1601358774595" duration="946000" />
-    </task>
-    <task id="LOCAL-00001" summary="README.md">
-      <created>1601000112119</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1601000112119</updated>
     </task>
     <task id="LOCAL-00002" summary="manually Install">
       <created>1601000184427</created>
@@ -396,7 +384,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601452388783</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Ansible CephDeploy deployadmin11111111">
+      <created>1601455406972</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1601455406972</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Ansible CephDeploy deployadmin111111111">
+      <created>1601455509154</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1601455509154</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Ansible CephDeploy deployadmin111111111">
+      <created>1601455521821</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1601455521822</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,8 +429,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ansible CephDeploy-291" />
-    <MESSAGE value="Ansible CephDeploy-2911" />
     <MESSAGE value="Ansible CephDeploy-29111" />
     <MESSAGE value="Ansible CephDeploy-291111" />
     <MESSAGE value="Ansible CephDeploy-chronyd OK" />
@@ -445,7 +452,9 @@
     <MESSAGE value="Ansible CephDeploy deployadmin11111" />
     <MESSAGE value="Ansible CephDeploy deployadmin111111" />
     <MESSAGE value="Ansible CephDeploy deployadmin1111111" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy deployadmin1111111" />
+    <MESSAGE value="Ansible CephDeploy deployadmin11111111" />
+    <MESSAGE value="Ansible CephDeploy deployadmin111111111" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy deployadmin111111111" />
   </component>
   <component name="WindowStateProjectService">
     <state x="671" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601373287027">
@@ -464,10 +473,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601452391537">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601455529726">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601452391537" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601455529726" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601443461979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
