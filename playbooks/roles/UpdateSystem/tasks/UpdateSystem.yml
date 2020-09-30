@@ -3,6 +3,7 @@
 - name: config /etc/yum.conf
   lineinfile:
     dest: /etc/yum.conf
+    relexp: '^exclude'
     line: |
       exclude=kernel*
       exclude=kernel-*
