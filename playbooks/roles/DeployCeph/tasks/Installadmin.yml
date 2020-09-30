@@ -5,7 +5,8 @@
   retries: 3
   delay: 5
   run_once: true
-  delegate_to: "{{ hostvars.ADMIN }}"
+  delegate_to: ansible_hostname in groups.ADMIN[0]
+
 
 - name: create group Cephx
   group: name=Cephx state=present system=yes gid=1011
