@@ -1,0 +1,12 @@
+---
+# tasks file for BaseRpmInstall
+- name: base rpm installed
+  yum: name={{ item }} state=present
+  with_items:
+    - yum-plugin-priorities
+    - snappy
+    - leveldb
+    - gdisk
+    - python-argparse
+    - gperftools-libs
+    - wget

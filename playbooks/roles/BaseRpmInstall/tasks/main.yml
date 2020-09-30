@@ -1,2 +1,4 @@
 ---
 # tasks file for BaseRpmInstall
+- include: Installbaserpm.yml
+  tags: install_base
