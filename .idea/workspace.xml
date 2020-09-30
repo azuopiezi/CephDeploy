@@ -10,13 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy nopasswd ssh1">
-      <change afterPath="$PROJECT_DIR$/function/files/repo/Centos-Base.repo.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/files/repo/ceph.repo.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/files/repo/epel.repo.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playbooks/roles/SetYum/tasks/ConfigYum.yml" afterDir="false" />
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy yum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/SetYum/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/SetYum/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/files/repo/Centos-Base.repo.j2" beforeDir="false" afterPath="$PROJECT_DIR$/function/files/repo/Centos-Base.repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/files/repo/ceph.repo.j2" beforeDir="false" afterPath="$PROJECT_DIR$/function/files/repo/ceph.repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/files/repo/epel.repo.j2" beforeDir="false" afterPath="$PROJECT_DIR$/function/files/repo/epel.repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/SetYum/tasks/ConfigYum.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/SetYum/tasks/ConfigYum.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601372171790</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Ansible CephDeploy yum">
+      <created>1601373586429</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601373586429</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +240,8 @@
     <MESSAGE value="Ansible CephDeploy-chronyd OK" />
     <MESSAGE value="Ansible CephDeploy nopasswd ssh" />
     <MESSAGE value="Ansible CephDeploy nopasswd ssh1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy nopasswd ssh1" />
+    <MESSAGE value="Ansible CephDeploy yum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy yum" />
   </component>
   <component name="WindowStateProjectService">
     <state x="671" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601373287027">
@@ -253,10 +260,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601372175574">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601373618554">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601372175574" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601373618554" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601016292948">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

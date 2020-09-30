@@ -1,5 +1,19 @@
 ---
 # tasks file for SetYum
 - name: delete /etc/yum.repos.d/file
-  path: dest=/etc/yum.repos.d/ state=absent
-
+  file:
+     path: dest=/etc/yum.repos.d/{{ item }}
+     state: absent
+  with_items:
+    - "{{ files_list.stdout.lines }}"
+- name: copy yum sources to /etc/yum.repos.d/
+  copy:
+    src: "{{ item }}"
+    dest: /etc/yum.repos.d/
+  with_fileglob:
+    - files/repo/*
+- name: yum repolist
+  command: yum repolist
+  register: result
+- debug:
+    msg: "{{ result }}"
