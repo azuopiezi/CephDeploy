@@ -10,19 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy updatesystem11`">
-      <change afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Installadmin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/defaults/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/handlers/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/meta/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/tests/inventory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/tests/test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/vars/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/main.yml" afterDir="false" />
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy deployadmin1">
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Installadmin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Installadmin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601443348088</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Ansible CephDeploy deployadmin">
+      <created>1601444982592</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601444982592</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Ansible CephDeploy deployadmin1">
+      <created>1601445083348</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601445083348</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +346,9 @@
     <MESSAGE value="Ansible CephDeploy updatesystem1" />
     <MESSAGE value="Ansible CephDeploy updatesystem11" />
     <MESSAGE value="Ansible CephDeploy updatesystem11`" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy updatesystem11`" />
+    <MESSAGE value="Ansible CephDeploy deployadmin" />
+    <MESSAGE value="Ansible CephDeploy deployadmin1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy deployadmin1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="671" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601373287027">
@@ -362,10 +367,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601443355364">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601445087587">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601443355364" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601445087587" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601443461979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
