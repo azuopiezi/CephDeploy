@@ -10,5 +10,7 @@
     - python-argparse
     - gperftools-libs
     - wget
+    - python-setuptools
+    - vim
   retries: 3
   delay: 5
