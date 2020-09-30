@@ -10,3 +10,5 @@
     - python-argparse
     - gperftools-libs
     - wget
+  retries: 3
+  delay: 5

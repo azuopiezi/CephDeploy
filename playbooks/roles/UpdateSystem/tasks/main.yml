@@ -1,2 +1,4 @@
 ---
 # tasks file for UpdateSystem
+- include: UpdateSystem.yml
+  tags: updatesystem

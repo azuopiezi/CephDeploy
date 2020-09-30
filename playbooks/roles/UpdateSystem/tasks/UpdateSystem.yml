@@ -1,0 +1,14 @@
+---
+# tasks file for UpdateSystem
+- name: config /etc/yum.conf
+  lineinfile:
+    dest: /etc/yum.conf
+    line: |
+      - exclude=kernel*
+      - exclude=kernel-*
+      - exclude=centos-release*
+
+- name: yum update
+  shell: yum update -y
+  retries: 3
+  delay: 5
