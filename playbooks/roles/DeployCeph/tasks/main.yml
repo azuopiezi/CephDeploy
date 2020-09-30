@@ -3,4 +3,4 @@
 - include: Installadmin.yml
   tags: admin
 - include: InitCeph.yml
-  tags: IintCeph
+  tags: InitCeph
