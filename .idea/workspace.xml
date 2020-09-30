@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy deployadmin111111111">
-      <change beforePath="$PROJECT_DIR$/function/templates/CephStorIp.j2" beforeDir="false" afterPath="$PROJECT_DIR$/function/templates/CephStorIp.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/AddCephStorIp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/AddCephStorIp.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,34 +62,6 @@
       <workItem from="1600999581914" duration="750000" />
       <workItem from="1601000333802" duration="12534000" />
       <workItem from="1601358774595" duration="946000" />
-    </task>
-    <task id="LOCAL-00002" summary="manually Install">
-      <created>1601000184427</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1601000184427</updated>
-    </task>
-    <task id="LOCAL-00003" summary="manually Install">
-      <created>1601003222834</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1601003222834</updated>
-    </task>
-    <task id="LOCAL-00004" summary="manually hosts">
-      <created>1601005106655</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1601005106655</updated>
-    </task>
-    <task id="LOCAL-00005" summary="manually Chrony">
-      <created>1601015856982</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1601015856982</updated>
     </task>
     <task id="LOCAL-00006" summary="manually Chrony">
       <created>1601016537145</created>
@@ -405,7 +378,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601455521822</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Ansible CephDeploy deployadmin111111111">
+      <created>1601455735310</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1601455735310</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Ansible CephDeploy deployadmin111111111">
+      <created>1601455750925</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1601455750925</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Ansible CephDeploy deployadmin111111111">
+      <created>1601456107257</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1601456107257</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Ansible CephDeploy deployadmin111111111">
+      <created>1601456145068</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1601456145068</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,10 +474,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601455529726">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601456149214">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601455529726" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601456149214" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601443461979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
