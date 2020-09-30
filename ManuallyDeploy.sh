@@ -86,6 +86,8 @@ ceph-deploy new ceph{01..03}
 ceph-deploy install ceph{01..04} --no-adjust-repos
 ceph-deploy mon create-initial
 
+
+
 2.4 创建osd 盘
 ###创建OSD 过程
 ##格式化盘

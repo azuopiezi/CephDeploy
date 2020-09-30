@@ -1,0 +1,10 @@
+TYPE=Ethernet
+PROXY_METHOD=none
+BROWSER_ONLY=no
+BOOTPROTO=static
+DEFROUTE=yes
+NAME={{ hostvars[ansible_hostname].ansible_ceph_stor_interface }}
+DEVICE={{ hostvars[ansible_hostname].ansible_ceph_stor_interface }}
+ONBOOT=yes
+IPADDR={{ hostvars[ansible_hostname].ansible_ceph_stor_ip }}
+NETMASK=255.255.255.0

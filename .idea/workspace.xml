@@ -11,8 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy deployadmin1111111">
+      <change afterPath="$PROJECT_DIR$/function/templates/CephStorIp.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks/AddCephStorIP.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/InitCeph.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/InitCeph.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManuallyDeploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ManuallyDeploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/hosts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/BaseRpmInstall/tasks/Installbaserpm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/BaseRpmInstall/tasks/Installbaserpm.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +42,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/playbooks/roles/BaseEnvConfig/tasks" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\BaseEnvConfig\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\DeployCeph\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\UpdateSystem\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\BaseRpmInstall\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\SetYum\tasks" />
-      <recent name="D:\Coding\Ansible\CephDeploy\function\files\repo" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -385,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601451727377</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Ansible CephDeploy deployadmin1111111">
+      <created>1601452388783</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1601452388783</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,10 +464,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601451730684">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601452391537">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601451730684" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601452391537" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601443461979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

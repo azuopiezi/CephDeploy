@@ -1,0 +1,15 @@
+---
+- name: copy stor conf
+  copy:
+    src: templates/CephStorIp.j2
+    dest: /etc/sysconfig/network-scripts/ifcfg-{{ hostvars[ansible_hostname].ansible_ceph_stor_interface }}
+  when: "{{groups.all| unique | list}}"
+
+- name: ifup stor interface
+  command: ifup {{ hostvars[ansible_hostname].ansible_ceph_stor_interface }}
+  when: "{{groups.all| unique | list}}"
+
+- name: ping storip
+  shell: ping {{ hostvars[ansible_hostname].ansible_ceph_stor_ip }} -c 2
+  when: "{{groups.all| unique | list}}"
+

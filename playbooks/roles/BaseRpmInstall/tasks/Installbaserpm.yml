@@ -12,5 +12,6 @@
     - wget
     - python-setuptools
     - vim
+    - net-tools
   retries: 3
   delay: 5
