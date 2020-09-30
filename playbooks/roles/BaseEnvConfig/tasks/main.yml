@@ -2,3 +2,5 @@
 # tasks file for BaseEnvConfig
 - include: BaseConfig.yml
 - include: SetHostnameAndHosts.yml
+- include: AddCephStorIp.yml
+  tags: addip
