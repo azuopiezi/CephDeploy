@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy deployadmin111">
-      <change afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/InitCeph.yml" afterDir="false" />
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy deployadmin11111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Installadmin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Installadmin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/InitCeph.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/InitCeph.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601447244695</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Ansible CephDeploy deployadmin1111">
+      <created>1601448774612</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1601448774612</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Ansible CephDeploy deployadmin11111">
+      <created>1601449036120</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601449036120</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,8 +360,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="manually Install" />
-    <MESSAGE value="manually hosts" />
     <MESSAGE value="manually Chrony" />
     <MESSAGE value="Ansible CephDeploy" />
     <MESSAGE value="Ansible CephDeploy-291" />
@@ -373,7 +383,9 @@
     <MESSAGE value="Ansible CephDeploy deployadmin1" />
     <MESSAGE value="Ansible CephDeploy deployadmin11" />
     <MESSAGE value="Ansible CephDeploy deployadmin111" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy deployadmin111" />
+    <MESSAGE value="Ansible CephDeploy deployadmin1111" />
+    <MESSAGE value="Ansible CephDeploy deployadmin11111" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy deployadmin11111" />
   </component>
   <component name="WindowStateProjectService">
     <state x="671" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601373287027">
@@ -392,10 +404,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601447247290">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601449039952">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601447247290" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601449039952" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601443461979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

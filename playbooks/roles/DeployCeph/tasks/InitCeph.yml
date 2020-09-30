@@ -5,11 +5,20 @@
     state: directory
     mode: 0755
 
-- name: init cluster ceph
-  command: "{{ item }}"
-  with_items:
-    - "ceph-deploy new {{ (groups.OSD + groups.MON | unique) | join(' ') }}"
-    - "ceph-deploy install {{ (groups.OSD + groups.MON | unique) | join(' ') }} --no-adjust-repos"
-    - "ceph-deploy mon create-initial"
+- name: init cluster ceph new
+  command: "ceph-deploy new {{ (groups.OSD + groups.MON | unique) | join(' ') }}"
+  retries: 3
+  dalay: 5
   when: "inventory_hostname in groups.ADMIN"
 
+- name: install cluster ceph
+  command: "ceph-deploy install {{ (groups.OSD + groups.MON | unique) | join(' ') }} --no-adjust-repos"
+  retries: 3
+  dalay: 5
+  when: "inventory_hostname in groups.ADMIN"
+
+- name: ceph mon create-initial
+  command: "ceph-deploy mon create-initial"
+  retries: 3
+  dalay: 5
+  when: "inventory_hostname in groups.ADMIN"
