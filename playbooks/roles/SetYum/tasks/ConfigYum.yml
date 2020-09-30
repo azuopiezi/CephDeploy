@@ -22,7 +22,7 @@
 
 
 - name: yum repolist
-  command: yum repolist
+  shell: yum repolist
   register: result
 - debug:
     msg: "{{ result }}"
