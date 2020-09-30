@@ -7,7 +7,8 @@
 
 - name: init cluster ceph new
   command: "{{ item }}"
-    chdir: /home/Cephx/myceph
+    args:
+      chdir: /home/Cephx/myceph
   with_items:
     - "ceph-deploy new {{ ((groups.OSD + groups.MON) | unique) | join(' ') }}"
     - "ceph-deploy install {{ ((groups.OSD + groups.MON) | unique) | join(' ') }} --no-adjust-repos"
