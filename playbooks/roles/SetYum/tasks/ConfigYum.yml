@@ -7,10 +7,10 @@
 
 - name: delete /etc/yum.repos.d/file
   file:
-     path: dest=/etc/yum.repos.d/{{ item }}
+     path: "{{ item.path }}"
      state: absent
   with_items:
-    - "{{ files_to_delete.stdout.lines }}"
+    - "{{ files_to_delete.files }}"
 
 
 - name: copy yum sources to /etc/yum.repos.d/
