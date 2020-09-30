@@ -1,0 +1,25 @@
+---
+# tasks file for playbooks/roles/DeployCeph
+- name: install ceph-deply in admin
+  yum: name=ceph-deploy state=present
+  retries: 3
+  delay: 5
+  run_once: true
+  delegate_to: "{{ hostvars.ADMIN }}"
+
+- name: create group Cephx
+  group: name=Cephx state=present system=yes gid=1011
+
+- name: create user cephx
+  user: name=Cephx groups=Cephx uid=1011 state=present password=Cephx shell=/sbin/login
+
+- name: change user mode
+  file:
+    path: /etc/sudoers.d/Cephx state=touch mode=0440
+
+- name: add /etc/sudoers.d/Cephx
+  lineinfile:
+    dest: /etc/sudoers.d/Cephx
+    regexp: '^Cephx ALL'
+    state: absent
+    line: 'Cephx ALL = (root) NOPASSWD:ALL'

@@ -10,13 +10,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy updatesystem11" />
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy updatesystem11`">
+      <change afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Installadmin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/defaults/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/handlers/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/tests/inventory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/tests/test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeplayCeph/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
@@ -34,15 +48,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/playbooks/roles/UpdateSystem/tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\DeployCeph\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\UpdateSystem\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\BaseRpmInstall\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\SetYum\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\function\files\repo" />
-      <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\BaseEnvConfig\handlers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -269,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601442843510</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Ansible CephDeploy updatesystem11`">
+      <created>1601443262010</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601443262010</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Ansible CephDeploy updatesystem11`">
+      <created>1601443348088</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601443348088</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +342,8 @@
     <MESSAGE value="Ansible CephDeploy updatesystem" />
     <MESSAGE value="Ansible CephDeploy updatesystem1" />
     <MESSAGE value="Ansible CephDeploy updatesystem11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy updatesystem11" />
+    <MESSAGE value="Ansible CephDeploy updatesystem11`" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy updatesystem11`" />
   </component>
   <component name="WindowStateProjectService">
     <state x="671" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601373287027">
@@ -333,14 +362,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601442850089">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601443355364">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601442850089" />
-    <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601016292948">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601443355364" />
+    <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601443461979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="661" y="326" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601016292948" />
+    <state x="661" y="326" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601443461979" />
     <state x="742" y="427" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600999694840">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

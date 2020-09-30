@@ -1,2 +1,4 @@
 ---
 # tasks file for playbooks/roles/DeployCeph
+- include: Installadmin.yml
+  tags: admin
