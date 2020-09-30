@@ -4,9 +4,9 @@
   lineinfile:
     dest: /etc/yum.conf
     line: |
-      - exclude=kernel*
-      - exclude=kernel-*
-      - exclude=centos-release*
+      exclude=kernel*
+      exclude=kernel-*
+      exclude=centos-release*
 
 - name: yum update
   shell: yum update -y
