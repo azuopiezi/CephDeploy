@@ -74,3 +74,4 @@
 2020-09-30 11:39:46,647 p=4434 u=root |  Playbook run took 0 days, 0 hours, 0 minutes, 43 seconds
 2020-09-30 13:24:32,228 p=9801 u=root |  - DeplayCeph was created successfully
 2020-09-30 13:24:49,904 p=9823 u=root |  - playbooks/roles/DeplayCeph was created successfully
+2020-09-30 13:31:54,373 p=10298 u=root |  - playbooks/roles/DeployCeph was created successfully
