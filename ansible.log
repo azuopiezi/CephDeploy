@@ -34,3 +34,43 @@
     "changed": false, 
     "ping": "pong"
 }
+2020-09-30 11:39:03,629 p=4434 u=root |  PLAY [all] *********************************************************************
+2020-09-30 11:39:03,679 p=4434 u=root |  TASK [setup] *******************************************************************
+2020-09-30 11:39:03,679 p=4434 u=root |  Wednesday 30 September 2020  11:39:03 +0800 (0:00:00.055)       0:00:00.055 *** 
+2020-09-30 11:39:04,466 p=4434 u=root |  ok: [ceph01]
+2020-09-30 11:39:04,490 p=4434 u=root |  ok: [ceph02]
+2020-09-30 11:39:04,497 p=4434 u=root |  ok: [ceph03]
+2020-09-30 11:39:04,504 p=4434 u=root |  TASK [UpdateSystem : config /etc/yum.conf] *************************************
+2020-09-30 11:39:04,504 p=4434 u=root |  Wednesday 30 September 2020  11:39:04 +0800 (0:00:00.824)       0:00:00.880 *** 
+2020-09-30 11:39:04,951 p=4434 u=root |  changed: [ceph01]
+2020-09-30 11:39:04,955 p=4434 u=root |  TASK [UpdateSystem : yum update] ***********************************************
+2020-09-30 11:39:04,955 p=4434 u=root |  Wednesday 30 September 2020  11:39:04 +0800 (0:00:00.450)       0:00:01.331 *** 
+2020-09-30 11:39:09,897 p=4434 u=root |  changed: [ceph02]
+2020-09-30 11:39:09,898 p=4434 u=root |   [WARNING]: Consider using yum module rather than running yum
+
+2020-09-30 11:39:09,910 p=4434 u=root |  changed: [ceph03]
+2020-09-30 11:39:12,863 p=4434 u=root |  changed: [ceph01]
+2020-09-30 11:39:12,867 p=4434 u=root |  TASK [UpdateSystem : kernel update] ********************************************
+2020-09-30 11:39:12,867 p=4434 u=root |  Wednesday 30 September 2020  11:39:12 +0800 (0:00:07.912)       0:00:09.243 *** 
+2020-09-30 11:39:14,181 p=4434 u=root |  ok: [ceph01]
+2020-09-30 11:39:14,195 p=4434 u=root |  ok: [ceph03]
+2020-09-30 11:39:14,220 p=4434 u=root |  ok: [ceph02]
+2020-09-30 11:39:14,224 p=4434 u=root |  TASK [UpdateSystem : Waiting for server to come back] **************************
+2020-09-30 11:39:14,225 p=4434 u=root |  Wednesday 30 September 2020  11:39:14 +0800 (0:00:01.357)       0:00:10.600 *** 
+2020-09-30 11:39:41,652 p=4434 u=root |  ok: [ceph01 -> localhost]
+2020-09-30 11:39:46,639 p=4434 u=root |  ok: [ceph03 -> localhost]
+2020-09-30 11:39:46,642 p=4434 u=root |  ok: [ceph02 -> localhost]
+2020-09-30 11:39:46,645 p=4434 u=root |  PLAY RECAP *********************************************************************
+2020-09-30 11:39:46,645 p=4434 u=root |  ceph01                     : ok=5    changed=2    unreachable=0    failed=0   
+2020-09-30 11:39:46,646 p=4434 u=root |  ceph02                     : ok=4    changed=1    unreachable=0    failed=0   
+2020-09-30 11:39:46,646 p=4434 u=root |  ceph03                     : ok=4    changed=1    unreachable=0    failed=0   
+2020-09-30 11:39:46,646 p=4434 u=root |  Wednesday 30 September 2020  11:39:46 +0800 (0:00:32.420)       0:00:43.022 *** 
+2020-09-30 11:39:46,646 p=4434 u=root |  =============================================================================== 
+2020-09-30 11:39:46,646 p=4434 u=root |  UpdateSystem : Waiting for server to come back ------------------------- 32.42s
+2020-09-30 11:39:46,646 p=4434 u=root |  UpdateSystem : yum update ----------------------------------------------- 7.91s
+2020-09-30 11:39:46,647 p=4434 u=root |  UpdateSystem : kernel update -------------------------------------------- 1.36s
+2020-09-30 11:39:46,647 p=4434 u=root |  setup ------------------------------------------------------------------- 0.82s
+2020-09-30 11:39:46,647 p=4434 u=root |  UpdateSystem : config /etc/yum.conf ------------------------------------- 0.45s
+2020-09-30 11:39:46,647 p=4434 u=root |  Playbook run took 0 days, 0 hours, 0 minutes, 43 seconds
+2020-09-30 13:24:32,228 p=9801 u=root |  - DeplayCeph was created successfully
+2020-09-30 13:24:49,904 p=9823 u=root |  - playbooks/roles/DeplayCeph was created successfully
