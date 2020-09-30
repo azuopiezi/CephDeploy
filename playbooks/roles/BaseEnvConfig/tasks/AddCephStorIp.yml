@@ -1,6 +1,6 @@
 ---
 - name: copy stor conf
-  copy:
+  templates:
     src: templates/CephStorIp.j2
     dest: /etc/sysconfig/network-scripts/ifcfg-{{ hostvars[ansible_hostname].ansible_ceph_stor_interface }}
     force: yes
