@@ -7,7 +7,6 @@
       exclude=kernel*
       exclude=kernel-*
       exclude=centos-release*
-  run_once: true
 
 - name: yum update
   shell: yum update --exclude=kernel-* -y

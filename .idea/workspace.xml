@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy yum1111">
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy updatesystem1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/SetYum/tasks/ConfigYum.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/SetYum/tasks/ConfigYum.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/CephDeploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/function/CephDeploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/UpdateSystem/tasks/UpdateSystem.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/UpdateSystem/tasks/UpdateSystem.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +38,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/playbooks/roles/SetYum/tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/playbooks/roles/UpdateSystem/tasks" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\UpdateSystem\tasks" />
+      <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\BaseRpmInstall\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\SetYum\tasks" />
       <recent name="D:\Coding\Ansible\CephDeploy\function\files\repo" />
       <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\BaseEnvConfig\handlers" />
-      <recent name="D:\Coding\Ansible\CephDeploy\playbooks\roles\BaseEnvConfig\tasks" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -229,7 +231,42 @@
       <option name="project" value="LOCAL" />
       <updated>1601431457820</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Ansible CephDeploy yum1111">
+      <created>1601432674966</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601432674966</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Ansible CephDeploy yumbaserpm">
+      <created>1601433129775</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601433129775</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Ansible CephDeploy updatesystem">
+      <created>1601434864553</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601434864553</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Ansible CephDeploy updatesystem">
+      <created>1601434976584</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601434976584</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Ansible CephDeploy updatesystem1">
+      <created>1601436625603</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1601436625603</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +307,10 @@
     <MESSAGE value="Ansible CephDeploy yum11" />
     <MESSAGE value="Ansible CephDeploy yum111" />
     <MESSAGE value="Ansible CephDeploy yum1111" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy yum1111" />
+    <MESSAGE value="Ansible CephDeploy yumbaserpm" />
+    <MESSAGE value="Ansible CephDeploy updatesystem" />
+    <MESSAGE value="Ansible CephDeploy updatesystem1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy updatesystem1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="671" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601373287027">
@@ -289,10 +329,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601431463185">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1601436630754">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601431463185" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601436630754" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601016292948">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

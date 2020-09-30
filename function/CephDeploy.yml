@@ -8,3 +8,4 @@
     - Chrony
     - BaseRpmInstall
     - UpdateSystem
+    - vim
