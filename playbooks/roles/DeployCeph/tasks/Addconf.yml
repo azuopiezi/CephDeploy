@@ -1,0 +1,10 @@
+---
+- name: add ip to conf
+  lineinfile:
+    dest: /home/Cephx/myceph/ceph.conf
+    line: |
+      - "public network = {{  }}/24"
+      - "cluster network = "
+
+
+

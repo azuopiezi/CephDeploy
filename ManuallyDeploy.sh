@@ -86,6 +86,7 @@ ceph-deploy new ceph{01..03}
 ceph-deploy install ceph{01..04} --no-adjust-repos
 ceph-deploy mon create-initial
 
+##20200930 部署到修改 public network 和cluster network
 
 
 2.4 创建osd 盘
