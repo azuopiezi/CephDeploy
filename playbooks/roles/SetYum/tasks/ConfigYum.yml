@@ -1,17 +1,26 @@
 ---
 # tasks file for SetYum
+- name: find /etc/yum.repos.d/
+  find:
+    paths: /etc/yum.repos.d
+  register: files_to_delete
+
 - name: delete /etc/yum.repos.d/file
   file:
      path: dest=/etc/yum.repos.d/{{ item }}
      state: absent
   with_items:
-    - "{{ files_list.stdout.lines }}"
+    - "{{ files_to_delete.stdout.lines }}"
+
+
 - name: copy yum sources to /etc/yum.repos.d/
-  copy:
-    src: "{{ item }}"
-    dest: /etc/yum.repos.d/
-  with_fileglob:
-    - files/repo/*
+  copy: src=files/repo/{{ item.src }} dest=/etc/yum.repos.d/{{ item.dest }}
+  with_items:
+    - { src: 'Centos-Base.repo.j2', dest: 'Centos-Base.repo' }
+    - { src: 'ceph.repo.j2', dest: 'ceph.repo' }
+    - { src: 'epel.repo.j2', dest: 'epel.repo' }
+
+
 - name: yum repolist
   command: yum repolist
   register: result
