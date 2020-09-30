@@ -12,7 +12,7 @@
   group: name=Cephx state=present system=yes gid=1011
 
 - name: create user cephx
-  user: name=Cephx groups=Cephx uid=1011 state=present password=Cephx shell=/sbin/login
+  user: name=Cephx groups=Cephx uid=1011 state=present password=Cephx shell=/bin/bash
 
 - name: change user mode
   file: path=/etc/sudoers.d/Cephx state=touch mode=0440
