@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy conf network">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Syncconf.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Syncconf.yml" afterDir="false" />
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy conf network3">
+      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +62,7 @@
       <workItem from="1601000333802" duration="12534000" />
       <workItem from="1601358774595" duration="946000" />
       <workItem from="1603866056417" duration="1001000" />
-      <workItem from="1603867374011" duration="8383000" />
-    </task>
-    <task id="LOCAL-00015" summary="Ansible CephDeploy nopasswd ssh">
-      <created>1601371515856</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1601371515856</updated>
+      <workItem from="1603867374011" duration="8496000" />
     </task>
     <task id="LOCAL-00016" summary="Ansible CephDeploy nopasswd ssh1">
       <created>1601372009335</created>
@@ -408,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603876853440</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Ansible CephDeploy conf network3">
+      <created>1603877079467</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1603877079467</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +435,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ansible CephDeploy yum" />
     <MESSAGE value="Ansible CephDeploy yum1" />
     <MESSAGE value="Ansible CephDeploy yum11" />
     <MESSAGE value="Ansible CephDeploy yum111" />
@@ -461,7 +459,8 @@
     <MESSAGE value="addpublic and cludterip 2" />
     <MESSAGE value="addpublic and cludterip 3" />
     <MESSAGE value="addpublic and cludterip 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="addpublic and cludterip 4" />
+    <MESSAGE value="Ansible CephDeploy conf network3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy conf network3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="421" key="#Notifications" timestamp="1603868686804">
@@ -488,10 +487,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1603876862794">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1603877085835">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603876862794" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603877085835" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601443461979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
