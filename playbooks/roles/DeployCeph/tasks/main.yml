@@ -4,3 +4,7 @@
   tags: admin
 - include: InitCeph.yml
   tags: InitCeph
+- include: Addconf.yml
+  tags: Addconf
+- include: CreateOSD.yml
+  tags: CreateOSD
