@@ -1,4 +1,5 @@
 ---
 - name: Sync config to all cluster
   command:
-    "ceph-deploy new {{ ((groups.OSD + groups.MON) | unique) | join(' ') }}"
+    ceph-deploy new {{ ((groups.OSD + groups.MON) | unique) | join(' ') }}
+  when: "inventory_hostname in groups.ADMIN"
