@@ -6,7 +6,7 @@
   tags: InitCeph
 - include: Addconf.yml
   tags: Addconf
-- include: syncconf.yml
+- include: Syncconf.yml
   tags: Syncconf
 - include: CreateOSD.yml
   tags: CreateOSD
