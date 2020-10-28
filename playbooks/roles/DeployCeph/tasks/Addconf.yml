@@ -3,8 +3,8 @@
   lineinfile:
     dest: /home/Cephx/myceph/ceph.conf
     line: |
-      - "public network = {{  }}/24"
-      - "cluster network = "
+      - "public network = {{ hostvars[ansible_hostname].ansible_host }}/24"
+      - "cluster network = {{ hostvars[ansible_hostname].ansible_ceph_stor_ip }}/24"
 
 
 
