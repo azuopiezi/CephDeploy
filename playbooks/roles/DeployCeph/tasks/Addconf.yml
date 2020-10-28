@@ -7,3 +7,4 @@
       cluster_network = {{ hostvars[ansible_hostname].ansible_ceph_stor_ip |regex_replace('([0-9]+)$', '0') }}/24
 
   when: "inventory_hostname in groups.ADMIN"
+
