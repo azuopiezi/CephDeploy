@@ -3,6 +3,7 @@
   lineinfile:
     dest: /home/Cephx/myceph/ceph.conf
     line: |
-      public_network = {{ hostvars[ansible_hostname].[ 'ansible_' + ansible_ceph_pub_interface ].ipv4.network }}/24
-      cluster_network = {{ hostvars[ansible_hostname].[ 'ansible_' + ansible_ceph_stor_interface ].ipv4.network }}/24
+      public_network = {{ hostvars[ansible_hostname].ansible_host |regex_replace('([0-9]+)$', '0') }}/24
+      cluster_network = {{ hostvars[ansible_hostname].ansible_ceph_stor_ip |regex_replace('([0-9]+)$', '0') }}/24
+
   when: "inventory_hostname in groups.ADMIN"
