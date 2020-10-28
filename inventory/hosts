@@ -3,14 +3,17 @@ all:
   hosts:
     ceph01:
       ansible_connection: ssh
+      ansible_ceph_pub_interface: ens192
       ansible_host: 10.100.201.161
       ansible_ssh_pass: Huayun@123
       ansible_ssh_user: root
+
       ansible_ceph_stor_interface: ens224
       ansible_ceph_stor_ip: 119.119.119.161
 
     ceph02:
       ansible_connection: ssh
+      ansible_ceph_pub_interface: ens192
       ansible_host: 10.100.201.162
       ansible_ssh_pass: Huayun@123
       ansible_ssh_user: root
@@ -18,6 +21,7 @@ all:
       ansible_ceph_stor_ip: 119.119.119.162
     ceph03:
       ansible_connection: ssh
+      ansible_ceph_pub_interface: ens192
       ansible_host: 10.100.201.163
       ansible_ssh_pass: Huayun@123
       ansible_ssh_user: root
