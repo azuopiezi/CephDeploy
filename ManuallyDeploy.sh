@@ -85,10 +85,16 @@ ceph-deploy new ceph{01..03}
 ###安装软件
 ceph-deploy install ceph{01..04} --no-adjust-repos
 ceph-deploy mon create-initial
+cat <<END>> /home/Cephx/myceph/ceph.conf
+public_network=10.100.201.0/24
+cluster_network=119.119.119.0/24
+END
+
 
 ##20200930 部署到修改 public network 和cluster network
 #同步配置文件
-ceph-deploy admin ceph{01..03}
+cd /home/Cephx/myceph
+ceph-deploy --overwrite-conf admin ceph{01..03}
 
 2.4 创建osd 盘
 ###创建OSD 过程
