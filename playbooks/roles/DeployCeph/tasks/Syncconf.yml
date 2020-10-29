@@ -1,5 +1,5 @@
 ---
 - name: Sync config to all cluster
-  command:
-    ceph-deploy new {{ ((groups.OSD + groups.MON) | unique) | join(' ') }}
+  shell: ceph-deploy --overwrite-conf admin {{ ((groups.OSD + groups.MON) | unique) | join(' ') }}
+
   when: "inventory_hostname in groups.ADMIN"
