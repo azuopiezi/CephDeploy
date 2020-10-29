@@ -1,12 +1,14 @@
 ---
 - name: zap disk
-  ceph-volume lvm zap /dev/sdb
-  ceph-volume lvm zap /dev/sdc
+  shell:
+    ceph-volume lvm zap /dev/sdb
+    ceph-volume lvm zap /dev/sdc
   when: "inventory_hostname in groups.OSD"
 
 - name: create osd
-  ceph-deploy osd create {{ item }} --data /dev/sdb
-  ceph-deploy osd create {{ item }} --data /dev/sdc
+  shell:
+    ceph-deploy osd create {{ item }} --data /dev/sdb
+    ceph-deploy osd create {{ item }} --data /dev/sdc
   with_items:
     - (groups.OSD | unique)
   when: "inventory_hostname in groups.OSD"
