@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy conf network4">
+    <list default="true" id="c4bc7204-7d73-4a09-8ce3-4168f6b99b1b" name="Default Changelist" comment="Ansible CephDeploy conf network5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Syncconf.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbooks/roles/DeployCeph/tasks/Syncconf.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManuallyDeploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ManuallyDeploy.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,28 +63,8 @@
       <workItem from="1601000333802" duration="12534000" />
       <workItem from="1601358774595" duration="946000" />
       <workItem from="1603866056417" duration="1001000" />
-      <workItem from="1603867374011" duration="9106000" />
-    </task>
-    <task id="LOCAL-00018" summary="Ansible CephDeploy nopasswd ssh1">
-      <created>1601372161023</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1601372161023</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Ansible CephDeploy nopasswd ssh1">
-      <created>1601372171790</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1601372171790</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Ansible CephDeploy yum">
-      <created>1601373586429</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1601373586429</updated>
+      <workItem from="1603867374011" duration="9865000" />
+      <workItem from="1603936242150" duration="1803000" />
     </task>
     <task id="LOCAL-00021" summary="Ansible CephDeploy yum1">
       <created>1601429141786</created>
@@ -408,7 +388,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603877271455</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Ansible CephDeploy conf network5">
+      <created>1603936135869</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1603936135869</updated>
+    </task>
+    <task id="LOCAL-00068" summary="we">
+      <created>1603936422952</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1603936422953</updated>
+    </task>
+    <task id="LOCAL-00069" summary="createosd1">
+      <created>1603942804014</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1603942804014</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,9 +437,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ansible CephDeploy yum11" />
-    <MESSAGE value="Ansible CephDeploy yum111" />
-    <MESSAGE value="Ansible CephDeploy yum1111" />
     <MESSAGE value="Ansible CephDeploy yumbaserpm" />
     <MESSAGE value="Ansible CephDeploy updatesystem" />
     <MESSAGE value="Ansible CephDeploy updatesystem1" />
@@ -461,7 +459,10 @@
     <MESSAGE value="addpublic and cludterip 4" />
     <MESSAGE value="Ansible CephDeploy conf network3" />
     <MESSAGE value="Ansible CephDeploy conf network4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ansible CephDeploy conf network4" />
+    <MESSAGE value="Ansible CephDeploy conf network5" />
+    <MESSAGE value="we" />
+    <MESSAGE value="createosd1" />
+    <option name="LAST_COMMIT_MESSAGE" value="createosd1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="421" key="#Notifications" timestamp="1603868686804">
@@ -488,10 +489,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="397" width="425" height="256" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601361231643" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1603877276875">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1603942807833">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603877276875" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603942807833" />
     <state x="661" y="326" key="git4idea.merge.GitPullDialog" timestamp="1601443461979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
